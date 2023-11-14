@@ -4,6 +4,7 @@ header {
     color: white;
     border: 2px black;
     padding: 2%;
+    border: 2px red
 }
 sidebar{
     float: left;
@@ -20,7 +21,7 @@ sidebar{
 }
 main {
     display: flexbox;
-    
+    border: 1px black;
 
 }
 .fiveDay {
@@ -29,4 +30,8 @@ main {
 currentW {
     border: 1px black;
     background-color: red;
+ }
+ .card {
+    padding: 2px 16px;
+    border: 1px black;
  }

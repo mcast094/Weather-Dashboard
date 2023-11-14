@@ -47,9 +47,8 @@ function buildApiUrl(input) {
     <p class="pl-2">Humidity: <span id="humidity">${data.main.humidity}</span>% </p>
     <p class="pl-2">Wind Speed: <span id="wind">${data.wind.speed}</span> MPH</p>
     `
+    localStorage.setItem()
     })
 }
 
-function loadCities (){
-    
-}
+
